@@ -1,16 +1,96 @@
-# React + Vite
+# ❄️ FL Solutions - Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido al repositorio oficial de la aplicación web de **FL Solutions**! 🚀
 
-Currently, two official plugins are available:
+Este proyecto es una plataforma moderna y dinámica desarrollada en **React** con **Vite**, diseñada para ofrecer servicios de climatización, mantenimiento y venta de aires acondicionados de manera eficiente y atractiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📋 Sobre el Proyecto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**FL Solutions** se especializa en brindar soluciones integrales de climatización. Esta aplicación web permite a los usuarios:
 
-## Expanding the ESLint configuration
+- 🛠️ Explorar nuestros servicios de instalación, mantenimiento y reparación.
+- 💎 Conocer y suscribirse a nuestros planes de membresía exclusivos (**VIP Silver** y **VIP Gold**).
+- 🛒 Ver nuestro catálogo de productos y equipos complementarios.
+- 📞 Contactarnos fácilmente a través de WhatsApp o formularios integrados.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+La interfaz ha sido diseñada pensando en la experiencia de usuario (UX), con un diseño limpio, responsivo y profesional.
+
+---
+
+## 🚀 Tecnologías Utilizadas
+
+Este proyecto ha sido construido utilizando las mejores herramientas del desarrollo web moderno:
+
+- **⚛️ React**: Biblioteca principal para la construcción de la interfaz de usuario.
+- **⚡ Vite**: Entorno de desarrollo ultrarrápido para una experiencia de codificación fluida.
+- **🎨 Bootstrap 5**: Framework CSS para un diseño responsivo y componentes estilizados.
+- **📱 Responsive Design**: Totalmente adaptado para funcionar en móviles, tablets y escritorio.
+- **🔌 React Router**: Para una navegación fluida entre las diferentes secciones (Inicio, Membresías, etc.).
+
+---
+
+## 📂 Estructura del Proyecto
+
+El proyecto está organizado de la siguiente manera:
+
+```
+src/
+├── components/      # Componentes reutilizables (Navbar, Footer, Layout, etc.)
+│   └── sections/    # Secciones específicas de la página de inicio (Hero, About, Services...)
+├── pages/           # Páginas principales (HomePage, MembershipsPage)
+├── assets/          # Imágenes y recursos estáticos
+└── main.jsx         # Punto de entrada de la aplicación
+```
+
+---
+
+## 🛠️ Instalación y Uso Local
+
+Si deseas correr este proyecto en tu máquina local, sigue estos sencillos pasos:
+
+1.  **Clona el repositorio:**
+
+    ```bash
+    git clone https://github.com/Anthonybrito11/FL-SOLUTIONS-WEBAPP-REACT-MIGRATION.git
+    ```
+
+2.  **Entra en la carpeta del proyecto:**
+
+    ```bash
+    cd FL-SOLUTIONS-WEBAPP-REACT-MIGRATION
+    ```
+
+3.  **Instala las dependencias:**
+
+    ```bash
+    npm install
+    ```
+
+4.  **Inicia el servidor de desarrollo:**
+
+    ```bash
+    npm run dev
+    ```
+
+5.  ¡Abre tu navegador en la dirección que te indique la terminal (usualmente `http://localhost:5173`) y listo! 🎉
+
+---
+
+## 🌟 Características Destacadas
+
+- **Membresías Interactivas:** Visualización clara de los planes de mantenimiento con precios y beneficios.
+- **Botones de Acción (CTA):** Enlaces directos a WhatsApp y formularios de registro.
+- **Secciones Informativas:** FAQ, "Por qué elegirnos" y pasos para contratar servicios.
+- **Diseño Visual:** Uso de gradientes, sombras y tipografía moderna para una apariencia premium.
+
+---
+
+## 🤝 Contribución
+
+Si deseas contribuir a este proyecto, ¡eres bienvenido! Por favor, abre un _issue_ o envía un _pull request_ con tus mejoras.
+
+---
+
+Hecho con ❤️ por el equipo de desarrollo de FL Solutions.
